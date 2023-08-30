@@ -9,6 +9,9 @@
         border-radius: 10px;
         transition: 1s;
     }
+    main{
+        height: 70vh;
+    }
 
     .row{
         padding: 3rem 1rem;
@@ -16,6 +19,7 @@
     .bio {
       background-color: rgb(223, 209, 190);
       text-align: center;
+      padding: 4rem;
       padding-top: 2rem;
     }
     .hero_name {
