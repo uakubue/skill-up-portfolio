@@ -1,0 +1,36 @@
+#logo{
+      font-family: "Great Vibes", cursive;
+      font-weight: bold;
+      font-size: 30px;
+      padding: 1rem 3rem;
+    }
+    .content li:hover{
+        background-color: rgb(124, 101, 101);
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    .row{
+        padding: 3rem 1rem;
+    }
+    .bio {
+      background-color: rgb(223, 209, 190);
+      text-align: center;
+      padding-top: 2rem;
+    }
+    .hero_name {
+      font-family: "Source Code Pro", monospace;
+    }
+    .img {
+      display: flex;
+      justify-content: center;
+    }
+    .img > img{
+        border-radius: 50%;
+    }
+    footer{
+        background-color: rgb(68, 83, 120);
+        color: white;
+        height: 100px;
+        text-align: center;
+    }
