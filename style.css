@@ -10,7 +10,9 @@
         transition: 1s;
     }
 
-    
+    .row{
+        padding: 3rem 1rem;
+    }
     .bio {
       background-color: rgb(223, 209, 190);
       text-align: center;
