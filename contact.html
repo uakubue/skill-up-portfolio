@@ -20,10 +20,68 @@
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
         crossorigin="anonymous"
         />
+
+        <!-- Bootstrap-icons cdn -->
+        <link rel="stylesheet" href=
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <!-- Cdn link ends here -->
+
         <!-- Bootstrap link ends here -->
         <link rel="stylesheet" href="style.css">
         <title>Contact Me</title>
     </head>
+
+    <style>
+        .container{
+            background-color: rgb(230, 223, 214);
+            margin: 1rem;
+            height: 90vh;
+        }
+
+        #first_col{
+            padding: 1rem;
+            background-color: rgb(207, 205, 199);
+            justify-content: center;
+            border-radius: 10px;
+        }
+        #first_col > p > i{
+            padding: 10px;
+            color: rgb(88, 91, 125);
+        }
+        #second_col{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        #second_col > form > input{
+            width: 20rem;
+            border-radius: 8px;
+            border-style: none;
+            padding: 0 1rem ;
+        }
+        #second_col > form > textarea{
+            width: 20rem;
+            border-radius: 8px;
+            padding: 0 1rem;
+        }
+
+        .container > h4{
+
+            text-align: center;
+        }
+        .contact_image{
+            width: 18rem;
+            padding: 1rem;
+        }
+        #contact_row{
+            margin: 1rem;
+        }
+        .social_icons{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
 
     <body>
         <header>
@@ -83,7 +141,49 @@
         </header>
 
         <main>
+            <div class="container">
+                <h4 class="hero_name">Contact Me</h4>
+                <div id="contact_row" class="row">
 
+                    <div id="first_col" class="col">
+                        <div>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, dignissimos laudantium. Cum excepturi nesciunt officiis quibusdam laudantium harum, qui et unde perferendis. Deleniti, doloribus. Fuga quas iste facere tenetur rerum?
+                        </div><br><br>
+                        <p><i class="bi bi-house-door"></i> 12 University Avenue, Nsukka</p>
+
+                        <p><i class="bi bi-telephone-forward"></i> 08012345678</p>
+
+                        <p><i class="bi bi-envelope-open"></i> john@gmail.com</p>
+                        
+                        <div class="social_icons">
+                            <a href=""><i class="bi bi-facebook"></i></a>
+
+                            <a href=""><i class="bi bi-twitter"></i></a>
+
+                            <a class="text-dark" href=""><i class="bi bi-github"></i></a>
+
+                            <a class="text-danger" href=""><i class="bi bi-telegram"></i></a>
+                        </div>
+                    </div>
+
+                    <div id="second_col" class="col">
+                        <form action="">
+                            <p>Send Me a message</p>
+
+                            <label for="name">Name</label><br>
+                            <input type="text" id="name" placeholder="Name"><br><br>
+
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" placeholder="Email"><br><br>
+
+                            <label for="message">Message</label><br>
+                            <textarea name="" id="message" cols="30" rows="3" placeholder="message"></textarea><br>
+
+                            <button class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer>

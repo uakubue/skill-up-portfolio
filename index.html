@@ -1,5 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- This is Google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,11 +21,21 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <!-- Bootstrap-icons cdn -->
+    <link rel="stylesheet" href=
+      "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- Cdn link ends here -->
+
     <!-- Bootstrap link ends here -->
     <title>Odumegwu's Portfolio</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
+  <style>
+    .row > .col {
+      margin: 10px;
+    }
+  </style>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -82,14 +97,14 @@
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-md-6 bio hero_name">
-                <h1>Hi...</h1>
+            <div class="col bio hero_name">
+                <h1>Hi <i class="bi bi-emoji-smile-fill text-success"></i></h1>
                 <h1 class="hero_name">I'm Odumegwu</h1>
                 <h3>A Web Developer</h3>
                 <p>I build functional and responsive websites</p>
             </div>
 
-            <div class="col-md-6 img">
+            <div class="col img">
               <img src="uccorporate.jpg" width="300px" alt="Hero image" />
             </div>
           </div>
